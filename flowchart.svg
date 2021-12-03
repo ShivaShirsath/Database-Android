@@ -1,0 +1,479 @@
+<svg style="background-color:#00000000;" height="960" width="682" xmlns="http://www.w3.org/2000/svg">
+    <defs id="canvasGridDefs">
+        <pattern height="5" id="smallGrid" patternUnits="userSpaceOnUse" width="5">
+            <path d="M 5 0 L 0 0 0 5" fill="none" id="smallGridPath" stroke="lightgray"
+                stroke-width="0.5"></path>
+        </pattern>
+
+    </defs>
+    <rect fill="#00000000" height="100%" id="canvasGrid" width="100%"></rect>
+    <rect fill="gray" fill-opacity="0.2" height="0" id="shapeSelectGrid" stroke="gray" stroke-width="1" width="0"
+        x="0" y="0"></rect>
+    <circle style="display:none;" cx="0" cy="0" fill="darkslateblue" fill-opacity="0.2" id="selectionMarker"
+        r="50" stroke="darkslateblue" stroke-width="0"></circle>
+    <rect fill="#00000000" fill-opacity="1" height="40" id="terminatord3f86c30-4292-4e2f-85a2-2a9d1446b016" rx="20"
+        ry="20" stroke="black" stroke-opacity="1" width="90" x="320" y="10"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="terminatord3f86c30-4292-4e2f-85a2-2a9d1446b016Text" text-anchor="middle" x="320" y="20.953125">
+        <tspan dy="14.09375" x="365">Start</tspan>
+    </text>
+    <rect fill="none" height="50" id="63293407-9b7b-46dd-9618-ab5f2a6e568b" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="315" y="5"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="50" id="process92aa7e42-a74b-423b-be44-3c182c6a85d5" rx="0"
+        ry="0" stroke="black" stroke-opacity="1" width="90" x="320" y="70"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="process92aa7e42-a74b-423b-be44-3c182c6a85d5Text" text-anchor="middle" x="320" y="85.953125">
+        <tspan dy="14.09375" x="365">Show Screen</tspan>
+    </text>
+    <rect fill="none" height="60" id="6a83aa22-a0c6-4a16-9c14-83e1a453f23a" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="315" y="65"></rect>
+    <path d="M 320 150 M 320 156 a 45 6  0   0 0  90 0 M 320 156 a 45 6  0   0 1  90 0 M 320 156 l 0 38 a 45 6  0   0 0  90 0 l 0 -38 "
+        fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="database608cc88c-1f40-458d-be19-836f6b5fcc4d" stroke="black" stroke-opacity="1"></path>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="database608cc88c-1f40-458d-be19-836f6b5fcc4dText" text-anchor="middle" x="320" y="158.90625">
+        <tspan dy="14.09375" x="365">Open or Create</tspan>
+        <tspan dy="14.09375" x="365">Database</tspan>
+    </text>
+    <rect fill="none" height="60" id="fceacaae-5773-4254-95e2-42e6b9027f10" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="315" y="145"></rect>
+    <polygon fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="manualInputc4b67303-2f56-4efd-9aa6-4b90ed8caf3d"
+        points=" 320,340  320,380  410,380  410,330  320,340 " stroke="black" stroke-opacity="1"></polygon>
+    <text fill="black" font-family="Arial" font-size="12"
+        font-weight="normal" id="manualInputc4b67303-2f56-4efd-9aa6-4b90ed8caf3dText" text-anchor="middle" x="320" y="345.953125">
+        <tspan dy="14.09375" x="365">on Click</tspan>
+    </text>
+    <rect fill="none" height="60" id="65842137-5fbb-45e9-bf4c-bc3e6491e98f" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="315" y="325"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="50" id="processd8c832dd-7734-416a-8e6b-cccad0b5c7a8" rx="0"
+        ry="0" stroke="black" stroke-opacity="1" width="90" x="100" y="420"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="processd8c832dd-7734-416a-8e6b-cccad0b5c7a8Text" text-anchor="middle" x="100" y="435.953125">
+        <tspan dy="14.09375" x="145">Insert records</tspan>
+    </text>
+    <rect fill="none" height="60" id="9fe90e5e-f2c7-457c-8365-1db4e4e2c7d3" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="95" y="415"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="50" id="process5d6bd095-3e7e-4509-bd85-ed6dbdff7ea0" rx="0"
+        ry="0" stroke="black" stroke-opacity="1" width="90" x="240" y="420"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="process5d6bd095-3e7e-4509-bd85-ed6dbdff7ea0Text" text-anchor="middle" x="240" y="435.953125">
+        <tspan dy="14.09375" x="285">Update records</tspan>
+    </text>
+    <rect fill="none" height="60" id="11b83c03-86ce-46f2-9386-396048a6bd7b" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="235" y="415"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="50" id="process5a00bf8e-a5d5-4623-8c72-0ae3b2066b38" rx="0"
+        ry="0" stroke="black" stroke-opacity="1" width="90" x="400" y="420"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="process5a00bf8e-a5d5-4623-8c72-0ae3b2066b38Text" text-anchor="middle" x="400" y="435.953125">
+        <tspan dy="14.09375" x="445">Delete records</tspan>
+    </text>
+    <rect fill="none" height="60" id="2cf269a7-e35b-48f9-ba3a-863aa05cb64d" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="395" y="415"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="50" id="processf16e28d9-fe36-4e33-985b-8467bba0842b" rx="0"
+        ry="0" stroke="black" stroke-opacity="1" width="90" x="530" y="420"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="processf16e28d9-fe36-4e33-985b-8467bba0842bText" text-anchor="middle" x="530" y="435.953125">
+        <tspan dy="14.09375" x="575">Show records</tspan>
+    </text>
+    <rect fill="none" height="60" id="68c44c60-5000-4f9a-be30-db207b9ebbcf" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="525" y="415"></rect>
+    <polygon fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="data4914ccba-8928-40f4-b62e-89593745df72"
+        points=" 260,540  240,590  310,590  330,540  260,540 " stroke="black" stroke-opacity="1"></polygon>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="data4914ccba-8928-40f4-b62e-89593745df72Text" text-anchor="middle" x="240" y="548.90625">
+        <tspan dy="14.09375" x="285">Update</tspan>
+        <tspan dy="14.09375" x="285">changes</tspan>
+    </text>
+    <rect fill="none" height="60" id="7a74a77a-40a6-4c58-9c31-dbe64810ea92" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="235" y="535"></rect>
+    <polygon fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="decisionf5aea9ec-1a08-4fa6-9072-7af67a7267c6"
+        points=" 365,220  320,265  365,310  410,265  365,220 " stroke="black" stroke-opacity="1"></polygon>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="decisionf5aea9ec-1a08-4fa6-9072-7af67a7267c6Text" text-anchor="middle" x="320" y="255.953125">
+        <tspan dy="14.09375" x="365">is Table Exist</tspan>
+    </text>
+    <rect fill="none" height="100" id="5100116b-b439-43ff-999b-01771a90a877" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="315" y="215"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="50" id="process5e2e3429-b055-436d-8ad9-96382418317d" rx="0"
+        ry="0" stroke="black" stroke-opacity="1" width="90" x="490" y="240"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="process5e2e3429-b055-436d-8ad9-96382418317dText" text-anchor="middle" x="490" y="255.953125">
+        <tspan dy="14.09375" x="535">Create Table</tspan>
+    </text>
+    <rect fill="none" height="60" id="1c023e5a-bdb6-4de1-9871-94b323f7f61d" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="485" y="235"></rect>
+    <polyline fill="none"
+        id="line7b47d7cf-0281-4667-9339-5fa1be8614f0"
+        points=" 365,50  365,70  365,70  365,70  365,50  365,50  365,50  365,50  365,70 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line7b47d7cf-0281-4667-9339-5fa1be8614f0back"
+        opacity="0" points=" 365,50  365,70  365,70  365,70  365,50  365,50  365,50  365,50  365,70 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line7b47d7cf-0281-4667-9339-5fa1be8614f0textback" stroke-width="0"
+        width="0" x="365" y="40.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line7b47d7cf-0281-4667-9339-5fa1be8614f0text" text-anchor="middle" x="340" y="40.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadbba9b519-e2f4-43a9-8832-b806163d9886" points=" 365,60  360,60  365,70  370,60  365,60 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line96c60dc1-ebb1-403c-a704-0b6d3430b3e2"
+        points=" 365,120  365,140  365,140  365,140  365,130  365,130  365,130  365,130  365,150 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line96c60dc1-ebb1-403c-a704-0b6d3430b3e2back"
+        opacity="0" points=" 365,120  365,140  365,140  365,140  365,130  365,130  365,130  365,130  365,150 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line96c60dc1-ebb1-403c-a704-0b6d3430b3e2textback" stroke-width="0"
+        width="0" x="365" y="120.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line96c60dc1-ebb1-403c-a704-0b6d3430b3e2text" text-anchor="middle" x="340" y="120.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead58c1757b-458a-4e55-b425-426b59d38e85" points=" 365,140  360,140  365,150  370,140  365,140 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line59697d1c-f30c-4628-8b6f-354801d83942"
+        points=" 365,380  365,400  365,400  365,400  145,400  145,400  145,400  145,420 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line59697d1c-f30c-4628-8b6f-354801d83942back"
+        opacity="0" points=" 365,380  365,400  365,400  365,400  145,400  145,400  145,400  145,420 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line59697d1c-f30c-4628-8b6f-354801d83942textback" stroke-width="0"
+        width="0" x="365" y="390.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line59697d1c-f30c-4628-8b6f-354801d83942text" text-anchor="middle" x="340" y="390.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead6aa9b657-b414-4aca-a47c-516336bb7d9f" points=" 145,410  140,410  145,420  150,410  145,410 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line5809c0ad-2af8-43d1-aad1-3858e6f09199"
+        points=" 365,380  365,400  365,400  365,400  285,400  285,400  285,400  285,420 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line5809c0ad-2af8-43d1-aad1-3858e6f09199back"
+        opacity="0" points=" 365,380  365,400  365,400  365,400  285,400  285,400  285,400  285,420 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line5809c0ad-2af8-43d1-aad1-3858e6f09199textback" stroke-width="0"
+        width="0" x="365" y="390.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line5809c0ad-2af8-43d1-aad1-3858e6f09199text" text-anchor="middle" x="340" y="390.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheada3bbe867-1813-433c-ade8-6b5ee707c244" points=" 285,410  280,410  285,420  290,410  285,410 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="lineb0371bc1-db10-4a7a-b040-044f71f3a6e6"
+        points=" 365,380  365,400  365,400  365,400  575,400  575,400  575,400  575,420 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="lineb0371bc1-db10-4a7a-b040-044f71f3a6e6back"
+        opacity="0" points=" 365,380  365,400  365,400  365,400  575,400  575,400  575,400  575,420 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="lineb0371bc1-db10-4a7a-b040-044f71f3a6e6textback" stroke-width="0"
+        width="0" x="365" y="390.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="lineb0371bc1-db10-4a7a-b040-044f71f3a6e6text" text-anchor="middle" x="340" y="390.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead026c0dca-c192-4aa5-a4d2-85160cd3f1f7" points=" 575,410  570,410  575,420  580,410  575,410 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line0a490c02-0379-45e6-9728-fd1453d6f67b"
+        points=" 365,380  365,400  365,400  365,400  445,400  445,400  445,400  445,420 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line0a490c02-0379-45e6-9728-fd1453d6f67bback"
+        opacity="0" points=" 365,380  365,400  365,400  365,400  445,400  445,400  445,400  445,420 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line0a490c02-0379-45e6-9728-fd1453d6f67btextback" stroke-width="0"
+        width="0" x="365" y="390.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line0a490c02-0379-45e6-9728-fd1453d6f67btext" text-anchor="middle" x="340" y="390.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadd6f4ca1a-e7c1-4a96-8b87-97851b1acbd9" points=" 445,410  440,410  445,420  450,410  445,410 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line05b72fd3-015a-4b24-94e9-435794f626d6"
+        points=" 145,470  145,490  145,490  145,505  285,505  285,520  285,520  285,540 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line05b72fd3-015a-4b24-94e9-435794f626d6back"
+        opacity="0" points=" 145,470  145,490  145,490  145,505  285,505  285,520  285,520  285,540 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line05b72fd3-015a-4b24-94e9-435794f626d6textback" stroke-width="0"
+        width="0" x="145" y="495.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line05b72fd3-015a-4b24-94e9-435794f626d6text" text-anchor="middle" x="120" y="495.953125">
+        <tspan dy="14.09375" x="145"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadb54e4977-af73-475c-8449-ef7c7ccb9086" points=" 285,530  280,530  285,540  290,530  285,530 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line023a4c54-c0e2-4bb3-a2b6-4c72c1379951"
+        points=" 285,470  285,490  285,490  285,505  285,505  285,520  285,520  285,540 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line023a4c54-c0e2-4bb3-a2b6-4c72c1379951back"
+        opacity="0" points=" 285,470  285,490  285,490  285,505  285,505  285,520  285,520  285,540 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line023a4c54-c0e2-4bb3-a2b6-4c72c1379951textback" stroke-width="0"
+        width="0" x="285" y="495.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line023a4c54-c0e2-4bb3-a2b6-4c72c1379951text" text-anchor="middle" x="270" y="495.953125">
+        <tspan dy="14.09375" x="285"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead21c207a5-6f00-4bdf-aa96-a0e59d9fa4ba" points=" 285,530  280,530  285,540  290,530  285,530 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line6dd79bad-7329-4924-827d-a652410f1e64"
+        points=" 445,470  445,490  445,490  445,505  285,505  285,520  285,520  285,540 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line6dd79bad-7329-4924-827d-a652410f1e64back"
+        opacity="0" points=" 445,470  445,490  445,490  445,505  285,505  285,520  285,520  285,540 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line6dd79bad-7329-4924-827d-a652410f1e64textback" stroke-width="0"
+        width="0" x="445" y="495.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line6dd79bad-7329-4924-827d-a652410f1e64text" text-anchor="middle" x="590" y="495.953125">
+        <tspan dy="14.09375" x="445"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheade35bd6b7-446f-4654-b9b9-9c18a0b8ee36" points=" 285,530  280,530  285,540  290,530  285,530 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line35162c07-eff7-4e5f-84c0-3efcfcdaeb5c"
+        points=" 365,200  365,220  365,220  365,220  365,200  365,200  365,200  365,200  365,220 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line35162c07-eff7-4e5f-84c0-3efcfcdaeb5cback"
+        opacity="0" points=" 365,200  365,220  365,220  365,220  365,200  365,200  365,200  365,200  365,220 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line35162c07-eff7-4e5f-84c0-3efcfcdaeb5ctextback" stroke-width="0"
+        width="0" x="365" y="190.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line35162c07-eff7-4e5f-84c0-3efcfcdaeb5ctext" text-anchor="middle" x="340" y="190.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadb43a8cc1-af89-4878-8e2b-66753afc09b9" points=" 365,210  360,210  365,220  370,210  365,210 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line016bbb89-1903-4717-99be-3fde70a84ee7"
+        points=" 410,265  430,265  430,265  450,265  450,265  470,265  470,265  490,265 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line016bbb89-1903-4717-99be-3fde70a84ee7back"
+        opacity="0" points=" 410,265  430,265  430,265  450,265  450,265  470,265  470,265  490,265 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line016bbb89-1903-4717-99be-3fde70a84ee7textback" stroke-width="0"
+        width="0" x="450" y="255.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line016bbb89-1903-4717-99be-3fde70a84ee7text" text-anchor="middle" x="425" y="255.953125">
+        <tspan dy="14.09375" x="450"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead649dc0f5-7aa4-4025-9c7b-a78c4762f522" points=" 480,265  480,260  490,265  480,270  480,265 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line8daddebc-99e0-48bf-a93e-4e0ba397889c"
+        points=" 365,310  365,330  365,330  365,330  365,315  365,315  365,315  365,315  365,335 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line8daddebc-99e0-48bf-a93e-4e0ba397889cback"
+        opacity="0" points=" 365,310  365,330  365,330  365,330  365,315  365,315  365,315  365,315  365,335 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line8daddebc-99e0-48bf-a93e-4e0ba397889ctextback" stroke-width="0"
+        width="0" x="365" y="305.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line8daddebc-99e0-48bf-a93e-4e0ba397889ctext" text-anchor="middle" x="340" y="305.953125">
+        <tspan dy="14.09375" x="365"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead0b9e9a6a-9366-41c8-8a0a-cba8193f5ab6" points=" 365,325  360,325  365,335  370,325  365,325 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="linea0775477-7fc5-4ab0-9257-fbc1d606e231"
+        points=" 535,290  535,310  535,310  535,332.5  535,332.5  535,355  430,355  430,355  410,355 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="linea0775477-7fc5-4ab0-9257-fbc1d606e231back"
+        opacity="0" points=" 535,290  535,310  535,310  535,332.5  535,332.5  535,355  430,355  430,355  410,355 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="linea0775477-7fc5-4ab0-9257-fbc1d606e231textback" stroke-width="0"
+        width="0" x="535" y="323.453125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="linea0775477-7fc5-4ab0-9257-fbc1d606e231text" text-anchor="middle" x="510" y="323.453125">
+        <tspan dy="14.09375" x="535"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead0f0b27ca-691c-409f-8320-949d747e2125" points=" 420,355  420,350  410,355  420,360  420,355 "
+        stroke="black"></polygon>
+    <rect fill="#00000000" fill-opacity="1" height="30" id="textonly090fb690-c333-42a7-bfce-0f89b256162a" rx="0"
+        ry="0" stroke="transparent" stroke-opacity="1" width="40" x="380" y="300"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="textonly090fb690-c333-42a7-bfce-0f89b256162aText" text-anchor="middle" x="380" y="305.953125">
+        <tspan dy="14.09375" x="400">Yes</tspan>
+    </text>
+    <rect fill="none" height="40" id="136a05f0-3554-49f6-8bd6-9aaeef42e973" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="50" x="375" y="295"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="30" id="textonly8edb9594-3cbc-4ed0-b049-6a852d31f9ee" rx="0"
+        ry="0" stroke="transparent" stroke-opacity="1" width="30" x="430" y="230"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="textonly8edb9594-3cbc-4ed0-b049-6a852d31f9eeText" text-anchor="middle" x="430" y="235.953125">
+        <tspan dy="14.09375" x="445">No</tspan>
+    </text>
+    <rect fill="none" height="40" id="9caddaca-1cf5-411f-b87a-f05540c709f4" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="40" x="425" y="225"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="40" id="terminatorb0fc9cb8-e2da-4754-84da-6f23d1311ed7" rx="20"
+        ry="20" stroke="black" stroke-opacity="1" width="90" x="320" y="900"></rect>
+    <text fill="black" font-family="Arial" font-size="12"
+        font-weight="normal" id="terminatorb0fc9cb8-e2da-4754-84da-6f23d1311ed7Text" text-anchor="middle" x="320" y="910.953125">
+        <tspan dy="14.09375" x="365">Stop</tspan>
+    </text>
+    <rect fill="none" height="50" id="f9ffd7e5-1a47-42b3-a7e8-e3cc916cdfac" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="315" y="895"></rect>
+    <path d="M 545 665 l 18 25 l 62.99999999999999 0 q 18 -25  0 -50 l -62.99999999999999 0 l -18 25 "
+        fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="display5cebaccc-e40b-42f5-b30d-59f0dca4a0cd" stroke="black" stroke-opacity="1"></path>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="display5cebaccc-e40b-42f5-b30d-59f0dca4a0cdText" text-anchor="middle" x="545" y="655.953125">
+        <tspan dy="14.09375" x="590">show Record</tspan>
+    </text>
+    <rect fill="none" height="60" id="bf0ae78a-dde8-4317-ac37-e25ab5bf6131" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="540" y="635"></rect>
+    <polygon fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="decision6632e18a-c16c-4b00-9b70-8231b30eda71"
+        points=" 445,630  400,665  445,700  490,665  445,630 " stroke="black" stroke-opacity="1"></polygon>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="decision6632e18a-c16c-4b00-9b70-8231b30eda71Text" text-anchor="middle" x="400" y="655.953125">
+        <tspan dy="14.09375" x="445">is Specific</tspan>
+    </text>
+    <rect fill="none" height="80" id="116cc3cf-a172-4e00-90ac-f678076a9a3a" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="395" y="625"></rect>
+    <polyline fill="none"
+        id="lined6f54f51-c780-45c9-a257-c872cfa3ac64"
+        points=" 575,470  575,490  575,490  575,550  445,550  445,610  445,610  445,630 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="lined6f54f51-c780-45c9-a257-c872cfa3ac64back"
+        opacity="0" points=" 575,470  575,490  575,490  575,550  445,550  445,610  445,610  445,630 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="lined6f54f51-c780-45c9-a257-c872cfa3ac64textback" stroke-width="0"
+        width="0" x="575" y="540.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="lined6f54f51-c780-45c9-a257-c872cfa3ac64text" text-anchor="middle" x="565" y="540.953125">
+        <tspan dy="14.09375" x="575"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadcf46cf66-7ff2-4f36-908c-84cf6e1b4623" points=" 445,620  440,620  445,630  450,620  445,620 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line7c6ac8d6-e60f-4f94-8a2f-1e66a3910269"
+        points=" 490,665  510,665  510,665  517.5,665  517.5,665  525,665  525,665  545,665 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line7c6ac8d6-e60f-4f94-8a2f-1e66a3910269back"
+        opacity="0" points=" 490,665  510,665  510,665  517.5,665  517.5,665  525,665  525,665  545,665 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line7c6ac8d6-e60f-4f94-8a2f-1e66a3910269textback" stroke-width="0"
+        width="0" x="517.5" y="655.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line7c6ac8d6-e60f-4f94-8a2f-1e66a3910269text" text-anchor="middle" x="490" y="655.953125">
+        <tspan dy="14.09375" x="517.5"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadc87154ce-6020-4031-9c4c-15dca203f17e" points=" 535,665  535,660  545,665  535,670  535,665 "
+        stroke="black"></polygon>
+    <path d="M 545 730 l 18 25 l 62.99999999999999 0 q 18 -25  0 -50 l -62.99999999999999 0 l -18 25 "
+        fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="display281cd29a-315c-4a0e-a370-05f02d3d83d6" stroke="black" stroke-opacity="1"></path>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="display281cd29a-315c-4a0e-a370-05f02d3d83d6Text" text-anchor="middle" x="545" y="720.953125">
+        <tspan dy="14.09375" x="590">show Records</tspan>
+    </text>
+    <rect fill="none" height="60" id="4aa9b5a7-3cb0-40bc-baeb-76d1def0910b" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="540" y="700"></rect>
+    <polyline fill="none"
+        id="lineeb10332d-c410-4f1c-8e52-743a638ff9bb"
+        points=" 445,700  445,720  445,720  445,725  445,725  445,730  525,730  525,730  545,730 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="lineeb10332d-c410-4f1c-8e52-743a638ff9bbback"
+        opacity="0" points=" 445,700  445,720  445,720  445,725  445,725  445,730  525,730  525,730  545,730 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="20" id="lineeb10332d-c410-4f1c-8e52-743a638ff9bbtextback" stroke-width="0"
+        width="50" x="420" y="715"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="lineeb10332d-c410-4f1c-8e52-743a638ff9bbtext" text-anchor="middle" x="420" y="715.953125">
+        <tspan dy="14.09375" x="445"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead8d6d125f-bf8f-487c-8ad6-404dea756f54" points=" 535,730  535,725  545,730  535,735  535,730 "
+        stroke="black"></polygon>
+    <rect fill="#00000000" fill-opacity="1" height="20" id="textonly7e721c60-de07-4a4d-9e3d-b3bfe7448025" rx="0"
+        ry="0" stroke="transparent" stroke-opacity="1" width="40" x="490" y="640"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="textonly7e721c60-de07-4a4d-9e3d-b3bfe7448025Text" text-anchor="middle" x="490" y="640.953125">
+        <tspan dy="14.09375" x="510">Yes</tspan>
+    </text>
+    <rect fill="none" height="30" id="3ec2e459-941a-4d25-b6f0-be230704d9a7" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="50" x="485" y="635"></rect>
+    <rect fill="#00000000" fill-opacity="1" height="20" id="textonlyb1505f45-9453-4546-aea8-6fb812f11951" rx="0"
+        ry="0" stroke="transparent" stroke-opacity="1" width="50" x="490" y="705"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="textonlyb1505f45-9453-4546-aea8-6fb812f11951Text" text-anchor="middle" x="490" y="705.953125">
+        <tspan dy="14.09375" x="515">No</tspan>
+    </text>
+    <rect fill="none" height="30" id="efbee174-e5ee-402c-8382-22ac2c17f736" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="60" x="485" y="700"></rect>
+    <path d="M 230 790 M 230 796 a 45 6  0   0 0  90 0 M 230 796 a 45 6  0   0 1  90 0 M 230 796 l 0 38 a 45 6  0   0 0  90 0 l 0 -38 "
+        fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="database92739d21-3ad9-49f6-95f6-1a05f12371f1" stroke="black" stroke-opacity="1"></path>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="database92739d21-3ad9-49f6-95f6-1a05f12371f1Text" text-anchor="middle" x="230" y="805.953125">
+        <tspan dy="14.09375" x="275">Close Dstabase</tspan>
+    </text>
+    <rect fill="none" height="60" id="9438a3b6-3a15-4c7d-8072-1c0982ffe48f" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="225" y="785"></rect>
+    <polygon fill="#00000000"
+        fill-opacity="1" fill-rule="nonzero" id="manualInput00fab8eb-f831-4c5e-a26f-eb8ebf873d34"
+        points=" 230,680  230,720  320,720  320,670  230,680 " stroke="black" stroke-opacity="1"></polygon>
+    <text fill="black" font-family="Arial" font-size="12"
+        font-weight="normal" id="manualInput00fab8eb-f831-4c5e-a26f-eb8ebf873d34Text" text-anchor="middle" x="230" y="685.953125">
+        <tspan dy="14.09375" x="275">Exit Click</tspan>
+    </text>
+    <rect fill="none" height="60" id="d99b0a17-6980-42a6-adcc-e81f3d02f9eb" stroke="none" stroke-dasharray="3,1"
+        stroke-width="1" width="100" x="225" y="665"></rect>
+    <polyline fill="none"
+        id="line664a2fe0-ece0-4349-a42c-2d108093f4eb"
+        points=" 275,720  275,740  275,740  275,755  275,755  275,770  275,770  275,790 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line664a2fe0-ece0-4349-a42c-2d108093f4ebback"
+        opacity="0" points=" 275,720  275,740  275,740  275,755  275,755  275,770  275,770  275,790 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line664a2fe0-ece0-4349-a42c-2d108093f4ebtextback" stroke-width="0"
+        width="0" x="275" y="745.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line664a2fe0-ece0-4349-a42c-2d108093f4ebtext" text-anchor="middle" x="65" y="745.953125">
+        <tspan dy="14.09375" x="275"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="lineheadd7455f0c-b2df-4cba-be9c-9d62c5fe4064" points=" 275,780  270,780  275,790  280,780  275,780 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line44481db7-4201-4845-ad27-0bb89e3b1128"
+        points=" 275,840  275,860  275,860  275,870  365,870  365,880  365,880  365,900 " stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line44481db7-4201-4845-ad27-0bb89e3b1128back"
+        opacity="0" points=" 275,840  275,860  275,860  275,870  365,870  365,880  365,880  365,900 " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="20" id="line44481db7-4201-4845-ad27-0bb89e3b1128textback" stroke-width="0"
+        width="50" x="250" y="860"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line44481db7-4201-4845-ad27-0bb89e3b1128text" text-anchor="middle" x="250" y="860.953125">
+        <tspan dy="14.09375" x="275"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead8fdab0f7-eecd-4a90-97f2-6474f0f2b51d" points=" 365,890  360,890  365,900  370,890  365,890 "
+        stroke="black"></polygon>
+    <polyline fill="none"
+        id="line0464670e-af0a-441b-9602-7cdc5dcd855a" points="320,30  300,30  300,30  50,30  50,695  50,695  50,695  230,695  "
+        stroke="black" stroke-width="1"></polyline>
+    <polyline fill="none"
+        id="line0464670e-af0a-441b-9602-7cdc5dcd855aback" opacity="0"
+        points="320,30  300,30  300,30  50,30  50,695  50,695  50,695  230,695  " stroke="gray" stroke-width="15"></polyline>
+    <rect fill="none" height="1" id="line0464670e-af0a-441b-9602-7cdc5dcd855atextback" stroke-width="0"
+        width="0" x="50" y="20.953125"></rect>
+    <text fill="black" font-family="Arial" font-size="12" font-weight="normal"
+        id="line0464670e-af0a-441b-9602-7cdc5dcd855atext" text-anchor="middle" x="185" y="20.953125">
+        <tspan dy="14.09375" x="50"></tspan>
+    </text>
+    <polygon fill="black"
+        fill-rule="nonzero" id="linehead07946bd6-30e9-47ce-aee1-e2416442e2e5" points=" 220,695  220,690  230,695  220,700  220,695 "
+        stroke="black"></polygon>
+    
+</svg>

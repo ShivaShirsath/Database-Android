@@ -21,8 +21,8 @@ public class MainActivity extends Activity {
 		Rollno = findViewById(R.id.roll);
 		Name = findViewById(R.id.name);
 
-		db = openOrCreateDatabase("StudentDB", Context.MODE_PRIVATE, null);
-		db.execSQL("CREATE TABLE IF NOT EXISTS student(rollno VARCHAR,name VARCHAR);");
+		db = openOrCreateDatabase("dbName", Context.MODE_PRIVATE, null);
+		db.execSQL("CREATE TABLE IF NOT EXISTS TableName(rollno VARCHAR,name VARCHAR);");
 	}
 	public void onInsert(View view) {
 		if (Rollno.getText().toString().trim().length() == 0 ||
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 			showMessage("Error", "Please enter all values");
 		} else {
 			db.execSQL(
-				"INSERT INTO student VALUES(" 
+				"INSERT INTO TableName VALUES(" 
 				+ "'" + Rollno.getText() + "',"
 				+ "'" + Name.getText()   + "'" 
 				+ ")" //;
@@ -43,9 +43,9 @@ public class MainActivity extends Activity {
 		if (Rollno.getText().toString().trim().length() == 0) {
 			showMessage("Error", "Please enter Rollno");
 		} else {
-			Cursor c=db.rawQuery("SELECT * FROM student WHERE rollno='" + Rollno.getText() + "'", null);
+			Cursor c=db.rawQuery("SELECT * FROM TableName WHERE rollno='" + Rollno.getText() + "'", null);
 			if (c.moveToFirst()) {
-				db.execSQL("DELETE FROM student WHERE rollno='" + Rollno.getText() + "'");
+				db.execSQL("DELETE FROM TableName WHERE rollno='" + Rollno.getText() + "'");
 				showMessage("Success", "Record Deleted");
 			} else {
 				showMessage("Error", "Invalid Rollno");
@@ -57,9 +57,9 @@ public class MainActivity extends Activity {
 		if (Rollno.getText().toString().trim().length() == 0) {
 			showMessage("Error", "Please enter Rollno");
 		} else {
-			Cursor c=db.rawQuery("SELECT * FROM student WHERE rollno='" + Rollno.getText() + "'", null);
+			Cursor c=db.rawQuery("SELECT * FROM TableName WHERE rollno='" + Rollno.getText() + "'", null);
 			if (c.moveToFirst()) {
-				db.execSQL("UPDATE student SET name='" + Name.getText() + "' WHERE rollno='" + Rollno.getText() + "'");
+				db.execSQL("UPDATE TableName SET name='" + Name.getText() + "' WHERE rollno='" + Rollno.getText() + "'");
 				showMessage("Success", "Record Modified");
 			} else {
 				showMessage("Error", "Invalid Rollno");
@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
 		if (Rollno.getText().toString().trim().length() == 0) {
 			showMessage("Error", "Please enter Rollno");
 		} else {
-			Cursor c=db.rawQuery("SELECT * FROM student WHERE rollno='" + Rollno.getText() + "'", null);
+			Cursor c=db.rawQuery("SELECT * FROM TableName WHERE rollno='" + Rollno.getText() + "'", null);
 			if (c.moveToFirst()) {
 				Name.setText(c.getString(1));
 			} else {
@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
 		}
 	}
 	public void onShowAll(View view) {
-		Cursor c=db.rawQuery("SELECT * FROM student", null);
+		Cursor c=db.rawQuery("SELECT * FROM TableName", null);
 		if (c.getCount() == 0) {
 			showMessage("Error", "No records found");
 		} else {
@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
 				buffer.append("Rollno: " + c.getString(0) + "\n");
 				buffer.append("Name: " + c.getString(1) + "\n\n");
 			}
-			showMessage("Student Details", buffer.toString());
+			showMessage("Details", buffer.toString());
 		}
 	}
 	public void showMessage(String title, String message) {
