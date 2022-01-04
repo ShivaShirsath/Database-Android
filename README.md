@@ -7,3 +7,4 @@ database Android app, SQLite, SQL
   ![](flowchart.svg)
   
 </details>
+
